@@ -33,7 +33,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://github.com/Emmykally/FEM-news-website.git)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://euphonious-pixie-8cbffe.netlify.app/)
 
 ## My process
 
