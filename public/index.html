@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <title>News Homepage</title>
+</head>
+<body class="font-body">
+    <div class="p-5"><!--body wrapper-->
+        <header>
+            <nav class="flex justify-between mt-4 ">
+                <div>
+                    <img src="img/logo.svg" alt="news company logo" class="h-6">
+                </div>
+                <img src="img/icon-menu.svg" alt="" class="h-6 w-6 md:hidden z-10" id="menu-open">
+                
+                <div class="md:static invisible md:visible absolute md:block right-0 top-0 flex items-center px-5 h-screen md:h-0 w-3/4 md:w-auto  bg-white" id="nav-menu">
+                    <ul class="flex md:flex-row flex-col md:items-center pl-6 gap-8 md:gap-0">
+                        <li class="md:pr-7 md:my-0"><a href="#">Home</a></li>
+                        <li class="md:pr-7 md:my-0"><a href="#">New</a></li>
+                        <li class="md:pr-7 md:my-0"><a href="#">Popular</a></li>
+                        <li class="md:pr-7 md:my-0"><a href="#">Trending</a></li>
+                        <li class="md:pr-7 md:my-0"><a href="#">Categories</a></li>
+                    </ul>
+                </div>
+                <!-- <div class="md:hidden">
+                    <img src="img/icon-menu.svg" alt="" class="h-6 w-6" id="menu-open">
+                </div> -->
+            </nav>
+        </header>
+
+        <main>
+            <div class="my-10 md:grid md:grid-cols-3 gap-4 "> <!--Main grid div container-->
+                <div class="md:col-span-2" ><!--grid 1-->
+                    <img src="img/image-web-3-desktop.jpg" alt="preview image" class="w-full h-1/2 object-cover">
+                    <div class="md:flex md:justify-between"><!--Parent of the flex on desktop view-->
+                        <div>
+                            <h1 class="text-6xl font-bold my-4">The Bright Future of Web 3.0?</h1>
+                        </div>
+                        <div class="">
+                            <p class="text-base md:my-5 leading-8">We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
+                            But is it really fulfilling its promise?</p>
+                            <button class="py-2 px-6 bg-orange-600 text-white my-4">Read More</button>
+                        </div>
+                    </div>
+                </div>
+               
+                <div class="bg-primary text-white w-full p-4 md:grid-cols-1">
+                    <h1 class="text-4xl font-bold text-secondary">New</h1>
+                    <div class="py-5 border-b">
+                        <h2 class="text-xl font-bold py-3">Hydrogen vs Electric cars</h2>
+                        <p>will Hydrogen-fueled cars ever catch up to Evs?</p>
+                    </div>
+                    <div class="py-5 border-b">
+                        <h2 class="text-xl font-bold py-3">The Downsides of AI Artistry</h2>
+                        <p>What are the possible adverse effects of on-demand AI image generation?</p>
+                    </div>
+                    <div class="py-5">
+                        <h2 class="text-xl font-bold py-3">Is VC Funding Drying up?</h2>
+                        <p>Private funding by VC firms is down 50% YOY. We take a look at what that means</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-5 md:grid md:grid-cols-3"><!--Second section-->
+                <div class="flex gap-5 my-5 md:col-span-1">
+                    <img src="img/image-retro-pcs.jpg" alt="" class="h-36">
+                    <div>
+                        <h1 class="text-4xl text-gray-400 font-bold">01</h1>
+                        <h3 class="text-xl font-bold py-2">Reviving Retro PCs</h3>
+                        <p class="text-gray-600">What happens when old pcs are given modern upgrades?</p>
+                    </div>
+                </div>
+
+                <div class="flex gap-5 my-5 md:col-span-1">
+                    <img src="img/image-top-laptops.jpg" alt="" class="h-36">
+                    <div>
+                        <h1 class="text-4xl text-gray-400 font-bold">02</h1>
+                        <h3 class="text-xl font-bold py-2">Top 10 Laptops of 2022</h3>
+                        <p class="text-gray-600">Our best pick for various needs and budgets</p>
+                    </div>
+                </div>
+
+                <div class="flex gap-5 my-5 md:col-span-1">
+                    <img src="img/image-gaming-growth.jpg" alt="" class="h-36">
+                    <div>
+                        <h1 class="text-4xl text-gray-400 font-bold">03</h1>
+                        <h3 class="text-xl font-bold py-2">The Growth of Gaming</h3>
+                        <p class="text-gray-600">How the pandemic has sparked fresh opportunities</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
